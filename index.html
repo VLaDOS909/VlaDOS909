@@ -74,7 +74,9 @@
               Текстовое поле ФИО:<br />
               <input name="field-name"
                      type="text"
-                     placeholder="Введите ваш ФИО" />
+                     pattern="[А-Яа-яЁёA-Za-z ]+"
+                     placeholder="Введите ваш ФИО" 
+                     required>
           </label><br />
           <label>
               Текстовое поле номера:<br />
@@ -92,6 +94,8 @@
           <label>
               Текстовое поле даты:<br />
               <input name="field-date"
+                     id="date"
+                     max="2026-09-21"
                      value="2026-09-21"
                      type="date" />
           </label><br />
@@ -114,10 +118,10 @@
                       multiple="multiple">
                   <option value="Значение1">Pascal</option>
                   <option value="Значение2">C</option>
-                  <option value="Значение3">C++</option>
+                  <option value="Значение3"selected="selected">C++</option>
                   <option value="Значение4">JavaScript</option>
                   <option value="Значение5">PHP</option>
-                  <option value="Значение6">Python</option>
+                  <option value="Значение6"selected="selected">Python</option>
                   <option value="Значение7">Java</option>
                   <option value="Значение8">Haskel</option>
                   <option value="Значение9">Clojure</option>
@@ -128,7 +132,7 @@
 
           <label>
               Биография:<br />
-              <textarea name="field-name-2"></textarea>
+              <textarea name="field-name-2"  placeholder="Расскажите о себе"></textarea>
           </label><br />
 
           <br />
