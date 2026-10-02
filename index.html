@@ -76,7 +76,7 @@
                      type="text"
                      pattern="[А-Яа-яЁёA-Za-z ]+"
                      placeholder="Введите ваш ФИО" 
-                     required>
+                     required/>
           </label><br />
           <label>
               Текстовое поле номера:<br />
@@ -85,13 +85,13 @@
                      minlength = "11"
                      type="text"
                      pattern = "[0-9]{11}"
-                     placeholder="Введите ваш номер" />
+                     placeholder="Введите ваш номер" required/>
           </label><br />
           <label>
               Текстовое поле email:<br />
               <input name="field-email"
                      type="email"
-                     placeholder="Введите вашу почту" />
+                     placeholder="Введите вашу почту" required/>
           </label><br />
 
           <label>
@@ -100,7 +100,7 @@
                      id="date"
                      max="2026-09-21"
                      value="2026-09-21"
-                     type="date" />
+                     type="date" required/>
           </label><br />
           <br />
           <label>
@@ -118,7 +118,7 @@
               Любимый язык програмирования
               <br />
               <select name="field-name-4[]"
-                      multiple="multiple">
+                      multiple="multiple"required>
                   <option value="Значение1">Pascal</option>
                   <option value="Значение2">C</option>
                   <option value="Значение3"selected="selected">C++</option>
