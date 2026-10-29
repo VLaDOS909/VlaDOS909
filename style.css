@@ -3,6 +3,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 header, nav, footer {
     width: 100%;
     box-sizing: border-box;
@@ -146,8 +151,6 @@ footer {
 
     .table-wrapper {
         order: 2;
-    }
-}
     }
 }
 
