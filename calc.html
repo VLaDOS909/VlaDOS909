@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 5</title>
+    <link rel="stylesheet" href="style_calc.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+
+            <img class="logo"
+                 src="wtpfl4up_lg.jpg"
+                 alt="Логотип сайта">
+
+            <h1>Мой сайт</h1>
+
+        </div>
+    </header>
+
+
+    <nav>
+        <div class="nav-content">
+
+            <a href="index.html">Меню с ДЗ</a>
+            <a href="calc.html">Калькулятор</a>
+            <a href="about/page 2.html">Страница 2</a>
+
+        </div>
+    </nav>
+
+
+    <main class="content">
+
+        <h1>Калькулятор стоимости заказа</h1>
+
+        <form>
+
+            <label>
+                Количество товара:<br>
+
+                <input name="field1"
+                       type="text"
+                       placeholder="Введите количество">
+            </label>
+
+            <br>
+
+            <label>
+                Выберите товар:<br>
+
+                <select name="select1">
+                    <option value="70">Кабан (70 тыс. руб.)</option>
+                    <option value="150">Лошадь (150 тыс. руб.)</option>
+                    <option value="40">Индюк (40 тыс. руб.)</option>
+                    <option value="300">Лев (300 тыс. руб.)</option>
+                </select>
+            </label>
+
+            <br>
+
+            <button id="my-button">Подсчитать стоимость</button>
+
+        </form>
+
+        <div id="result"></div>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-content">
+            (с) Биденко Владислав
+        </div>
+    </footer>
+
+</body>
+
+</html>
