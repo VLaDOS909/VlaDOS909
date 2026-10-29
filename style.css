@@ -1,4 +1,3 @@
-</html >
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -147,6 +146,8 @@ footer {
 
     .table-wrapper {
         order: 2;
+    }
+}
     }
 }
 
