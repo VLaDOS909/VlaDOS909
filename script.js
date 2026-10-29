@@ -11,7 +11,7 @@ function onClick(event) {
     if (m !== null) {
         r.innerHTML = "Стоимость заказа: " + (price * count) + " тыс. руб.";
     } else {
-        r.innerHTML = "Ошибка: введите корректное количество!";
+        r.innerHTML = "Ошибка: введите корректное количество";
     }
 }
 
